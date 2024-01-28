@@ -1,5 +1,5 @@
 #include <iostream>
-#include "chef.h"
+#include "italianchef.h"
 
 
 using namespace std;
@@ -7,8 +7,8 @@ using namespace std;
 int main()
 {
 
-    Chef gordon("Gordon Ramsay");
-    Chef anthony("Anthony Bourdain");
+    Chef jyrki("Jyrki");
+    ItalianChef luigi("Luigi",10000,255550);
 
     return 0;
 }

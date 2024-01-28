@@ -1,9 +1,9 @@
 #include "chef.h"
 
 
-Chef::Chef(string i)
+Chef::Chef(string n)
 {
-    name = i;
+    name = n;
     cout<<"Chef "<<name<<" konstruktori"<<endl;
     makeSalad();
     makeSoup();
@@ -12,6 +12,7 @@ Chef::Chef(string i)
 Chef::Chef()
 {
 
+    cout<<"Chef default konstruktori"<<endl;
 }
 
 Chef::~Chef()

@@ -7,7 +7,7 @@ using namespace std;
 class Chef
 {   
 public:
-    Chef(string i);
+    Chef(string);
     Chef();
     ~Chef();
 
