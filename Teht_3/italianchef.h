@@ -7,7 +7,7 @@ class ItalianChef :protected Chef
 public:
     ItalianChef(string,int,int);
     string getName();
-    void makePasta(int, int);
+    void makePasta();
 private:
     int vesi;
     int jauhot;

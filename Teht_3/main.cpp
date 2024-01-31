@@ -8,7 +8,8 @@ int main()
 {
 
     Chef jyrki("Jyrki");
-    ItalianChef luigi("Luigi",10000,255550);
+    ItalianChef luigi("Luigi",101,255);
+
 
     return 0;
 }
