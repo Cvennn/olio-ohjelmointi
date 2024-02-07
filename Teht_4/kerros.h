@@ -13,7 +13,7 @@ public:
     Kerros();
     ~Kerros();
     void maaritaAsunnot();
-    double laskeKulutus();
+    double laskeKulutus(double);
     virtual void maarita(int,int);
 private:
     Asunto as1;

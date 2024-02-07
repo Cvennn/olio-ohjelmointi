@@ -11,7 +11,7 @@ public:
     Katutaso();
     ~Katutaso();
     void maaritaAsunnot();
-    double laskeKulutus();
+    double laskeKulutus(double);
 
 private:
     Asunto as1;

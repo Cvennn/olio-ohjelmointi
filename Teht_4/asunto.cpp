@@ -24,6 +24,6 @@ void Asunto::maarita(int i, int j)
 
 double Asunto::laskeKulutus(double asukasMaara)
 {
-    cout<<"Asunnon kulutus = "<< asukasMaara*100 <<endl;
+
     return asukasMaara*100;
 }

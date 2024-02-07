@@ -26,10 +26,10 @@ void Kerros::maaritaAsunnot()
     as4.maarita(2,100);
 }
 
-double Kerros::laskeKulutus()
+double Kerros::laskeKulutus(double asukasMaara)
 {
     //kerroksessa 8 asukasta
-    return 8*100;
+    return asukasMaara*100;
 }
 
 void Kerros::maarita(int asukasMaara, int neliot)

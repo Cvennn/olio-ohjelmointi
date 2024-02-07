@@ -7,15 +7,10 @@ using namespace std;
 int main()
 {
 
-    //Asunto asunto1;
-    //asunto1.maarita(2,100);
-
-
-    //Katutaso talo;
-    //talo.maaritaAsunnot();
-
     Kerrostalo talo;
-
+    cout<<"Kerrostalon kulutus "<<talo.laskeKulutus()<<endl;
 
     return 0;
 }
+
+// en tiedä menikö oikein, mutta sain koodin toimimaan

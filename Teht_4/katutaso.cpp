@@ -8,7 +8,7 @@ using namespace std;
 Katutaso::Katutaso()
 {
     cout<<"Katutaso konstruktori"<<endl;
-    //Kerros::maaritaAsunnot();
+
 }
 
 Katutaso::~Katutaso()
@@ -24,10 +24,10 @@ void Katutaso::maaritaAsunnot()
     as2.maarita(2,100);
 }
 
-double Katutaso::laskeKulutus()
+double Katutaso::laskeKulutus(double asukasMaara)
 {
 
-    return (as1.asukasMaara+as2.asukasMaara)*100;
+    return asukasMaara*100;
 }
 
 
