@@ -24,10 +24,10 @@ void Katutaso::maaritaAsunnot()
     as2.maarita(2,100);
 }
 
-double Katutaso::laskeKulutus(double asukasMaara)
+double Katutaso::laskeKulutus(double h)
 {
 
-    return asukasMaara*100;
+    return as1.laskeKulutus(h)+as2.laskeKulutus(h);
 }
 
 

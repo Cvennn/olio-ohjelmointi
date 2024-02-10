@@ -11,8 +11,8 @@ Kerrostalo::Kerrostalo()
     kolmas.maaritaAsunnot();
 }
 
-double Kerrostalo::laskeKulutus()
+double Kerrostalo::laskeKulutus(double h)
 {
 
-    return eka.laskeKulutus(4)+toka.laskeKulutus(8)+kolmas.laskeKulutus(8);
+    return eka.laskeKulutus(h)+toka.laskeKulutus(h)+kolmas.laskeKulutus(h);
 }

@@ -22,8 +22,8 @@ void Asunto::maarita(int i, int j)
 
 }
 
-double Asunto::laskeKulutus(double asukasMaara)
+double Asunto::laskeKulutus(double h)
 {
 
-    return asukasMaara*100;
+    return asukasMaara*neliot*h;
 }

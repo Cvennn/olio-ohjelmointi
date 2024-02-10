@@ -10,7 +10,7 @@ public:
 
     Katutaso();
     ~Katutaso();
-    void maaritaAsunnot();
+    virtual void maaritaAsunnot() override;
     double laskeKulutus(double);
 
 private:

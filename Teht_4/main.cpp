@@ -8,9 +8,9 @@ int main()
 {
 
     Kerrostalo talo;
-    cout<<"Kerrostalon kulutus "<<talo.laskeKulutus()<<endl;
+    cout<<"Kerrostalon kulutus, hinta = 1, "<<talo.laskeKulutus(1)<<endl;
 
     return 0;
 }
 
-// en tiedä menikö oikein, mutta sain koodin toimimaan
+

@@ -26,14 +26,10 @@ void Kerros::maaritaAsunnot()
     as4.maarita(2,100);
 }
 
-double Kerros::laskeKulutus(double asukasMaara)
+double Kerros::laskeKulutus(double h)
 {
-    //kerroksessa 8 asukasta
-    return asukasMaara*100;
+    return as1.laskeKulutus(h)+as2.laskeKulutus(h)+ as3.laskeKulutus(h)+as4.laskeKulutus(h);
+
 }
 
-void Kerros::maarita(int asukasMaara, int neliot)
-{
-    cout<<"Asunto maaritetty asukkaita= "<< asukasMaara <<", nelioita= "<<neliot<<endl;
-}
 

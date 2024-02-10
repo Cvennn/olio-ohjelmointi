@@ -6,7 +6,7 @@ class Kerrostalo
 {
 public:
     Kerrostalo();
-    double laskeKulutus();
+    double laskeKulutus(double);
 private:
     Kerros kolmas;
     Kerros toka;

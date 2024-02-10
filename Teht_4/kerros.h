@@ -12,9 +12,9 @@ public:
 
     Kerros();
     ~Kerros();
-    void maaritaAsunnot();
+    virtual void maaritaAsunnot();
     double laskeKulutus(double);
-    virtual void maarita(int,int);
+
 private:
     Asunto as1;
     Asunto as2;
